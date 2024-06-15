@@ -1,0 +1,9 @@
+version: '3'
+services:
+  postfreeapp:
+    build: .
+    ports:
+      - "2031:2030"
+    restart: always
+#    volumes:
+#      - /opt/uat/projects/pos/upload/image:/opt/uat/projects/pos/upload/image
